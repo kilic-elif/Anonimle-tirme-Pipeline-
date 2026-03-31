@@ -1,0 +1,36 @@
+﻿@model List<veritabaniyonetimiprojesi.Models.IslemKaydi>
+@{
+    ViewData["Title"] = "İşlem Kayıtları";
+}
+
+<div class="panel-card">
+    <h4 class="mb-3">İşlem Kayıtları</h4>
+
+    <div class="table-responsive">
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>İşlem Adı</th>
+                    <th>Başlama</th>
+                    <th>Bitiş</th>
+                    <th>Durum</th>
+                    <th>Etkilenen Kayıt</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.IslemID</td>
+                        <td>@item.IslemAdi</td>
+                        <td>@item.BaslamaZamani.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>@(item.BitisZamani.HasValue? item.BitisZamani.Value.ToString("dd.MM.yyyy HH:mm") : "-")</td>
+                        <td>@item.Durum</td>
+                        <td>@item.EtkilenenKayitSayisi</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

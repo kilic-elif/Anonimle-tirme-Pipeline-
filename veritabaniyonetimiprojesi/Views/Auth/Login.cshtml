@@ -1,0 +1,55 @@
+﻿@model veritabaniyonetimiprojesi.Models.GirisViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Giriş Yap</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="login-body">
+    <div class="login-wrapper">
+        <div class="login-card">
+            <div class="login-header">
+                <h2>Anonimleştirme Paneli</h2>
+                <p>Sisteme giriş yapın</p>
+            </div>
+
+            @if (ViewBag.Hata != null)
+            {
+                <div class="alert alert-danger">@ViewBag.Hata</div>
+            }
+
+            <form asp-action="Login" method="post">
+                <div class="mb-3">
+                    <label class="form-label">Kullanıcı Adı</label>
+                    <input asp-for="KullaniciAdi" class="form-control" />
+                    <span asp-validation-for="KullaniciAdi" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Şifre</label>
+                    <input asp-for="Sifre" class="form-control" />
+                    <span asp-validation-for="Sifre" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-login w-100">Giriş Yap</button>
+            </form>
+
+            <div class="login-demo mt-4">
+                <small>Demo hesaplar:</small><br />
+                <small>admin / 12345</small><br />
+                <small>analist1 / 12345</small><br />
+                <small>denetci1 / 12345</small>
+            </div>
+        </div>
+    </div>
+
+    <partial name="_ValidationScriptsPartial" />
+</body>
+</html>

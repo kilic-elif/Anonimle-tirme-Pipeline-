@@ -1,0 +1,89 @@
+﻿@using veritabaniyonetimiprojesi.Models
+@{
+    ViewData["Title"] = "Dashboard";
+    var sonBesIslem = ViewBag.SonBesIslem as List<IslemKaydi>;
+}
+@if (Context.Session.GetString("Rol") == "Admin" || Context.Session.GetString("Rol") == "Analist")
+{
+    <a asp-controller="Pipeline" asp-action="Calistir" class="btn btn-success mb-3">
+        Pipeline Başlat
+    </a>
+}
+<div class="dashboard-grid">
+    <div class="stat-card">
+        <div class="stat-title">Toplam Kullanıcı</div>
+        <div class="stat-value">@ViewBag.ToplamKullanici</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-title">Anonim Kullanıcı</div>
+        <div class="stat-value">@ViewBag.ToplamAnonimKullanici</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-title">Pipeline Sayısı</div>
+        <div class="stat-value">@ViewBag.ToplamIslem</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-title">Erişim Kaydı</div>
+        <div class="stat-value">@ViewBag.ToplamErisimKaydi</div>
+    </div>
+</div>
+
+<div class="panel-row">
+    <div class="panel-card">
+        <h5>Son İşlem Bilgisi</h5>
+        <p><strong>Durum:</strong> @ViewBag.SonIslemDurumu</p>
+        <p><strong>Tarih:</strong> @ViewBag.SonIslemTarihi</p>
+    </div>
+
+    <div class="panel-card">
+        <h5>Sistem Özeti</h5>
+        <p>Anonimleştirme ve pseudonymization süreçleri merkezi olarak yönetilmektedir.</p>
+        <p>Rol bazlı erişim ve işlem kayıt takibi aktiftir.</p>
+    </div>
+</div>
+
+<div class="panel-card mt-4">
+    <h5>Son 5 Pipeline İşlemi</h5>
+
+    <div class="table-responsive">
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>İşlem ID</th>
+                    <th>İşlem Adı</th>
+                    <th>Başlama</th>
+                    <th>Bitiş</th>
+                    <th>Durum</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (sonBesIslem != null && sonBesIslem.Any())
+                {
+                    foreach (var item in sonBesIslem)
+                    {
+                        <tr>
+                            <td>@item.IslemID</td>
+                            <td>@item.IslemAdi</td>
+                            <td>@item.BaslamaZamani.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>@(item.BitisZamani.HasValue? item.BitisZamani.Value.ToString("dd.MM.yyyy HH:mm") : "-")</td>
+                            <td>
+                                <span class="durum-badge @(item.Durum == "Tamamlandı" ? "durum-ok" : "durum-warn")">
+                                    @item.Durum
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5">Kayıt bulunamadı.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

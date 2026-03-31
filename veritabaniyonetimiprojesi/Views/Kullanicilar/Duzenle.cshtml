@@ -1,0 +1,68 @@
+﻿@model veritabaniyonetimiprojesi.Models.Kullanici
+@{
+    ViewData["Title"] = "Kullanıcı Düzenle";
+}
+
+<div class="panel-card">
+    <h4 class="mb-3">Kullanıcı Düzenle</h4>
+
+    <form asp-action="Duzenle" method="post">
+        <input type="hidden" asp-for="KullaniciID" />
+        <input type="hidden" asp-for="KayitTarihi" />
+
+        <div class="mb-2">
+            <label>Ad</label>
+            <input asp-for="Ad" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Soyad</label>
+            <input asp-for="Soyad" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>TC Kimlik No</label>
+            <input asp-for="TCKimlikNo" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Telefon</label>
+            <input asp-for="Telefon" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Eposta</label>
+            <input asp-for="Eposta" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Doğum Tarihi</label>
+            <input asp-for="DogumTarihi" type="date" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Şehir</label>
+            <input asp-for="Sehir" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Adres</label>
+            <input asp-for="Adres" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Kayıt Durumu</label>
+            <input asp-for="KayitDurumu" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+        <a asp-action="Index" class="btn btn-secondary">Geri</a>
+    </form>
+</div>
+<div class="mt-3">
+    @for (int i = 1; i <= ViewBag.ToplamSayfa; i++)
+    {
+        <a href="?sayfa=@i"
+           class="btn btn-sm @(i == ViewBag.Sayfa ? "btn-primary" : "btn-light")">@i</a>
+    }
+</div>

@@ -1,0 +1,59 @@
+﻿@model List<veritabaniyonetimiprojesi.Models.AnonimKullanici>
+@{
+    ViewData["Title"] = "Anonim Veriler";
+}
+
+<div class="panel-card">
+    <h4 class="mb-3">Anonim Kullanıcı Listesi</h4>
+
+    <form method="get" class="mb-3">
+        <input type="text" name="arama" value="@ViewBag.Arama" class="form-control" placeholder="Takma kod, şehir veya yaş aralığı ara" />
+    </form>
+
+    <div class="table-responsive">
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Takma Kod</th>
+                    <th>Ad Soyad</th>
+                    <th>TC Maske</th>
+                    <th>Telefon</th>
+                    <th>Eposta</th>
+                    <th>Yaş Aralığı</th>
+                    <th>Şehir</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.AnonimKayitID</td>
+                        <td>@item.TakmaKullaniciKodu</td>
+                        <td>@item.AdSoyadMaske</td>
+                        <td>@item.TCKimlikMaske</td>
+                        <td>@item.TelefonMaske</td>
+                        <td>@item.EpostaMaske</td>
+                        <td>@item.YasAraligi</td>
+                        <td>@item.Sehir</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="mt-3">
+        @for (int i = 1; i <= ViewBag.ToplamSayfa; i++)
+        {
+            <a href="?sayfa=@i&arama=@ViewBag.Arama"
+               class="btn btn-sm @(i == ViewBag.Sayfa ? "btn-primary" : "btn-light")">@i</a>
+        }
+    </div>
+</div>
+<div class="mt-3">
+    @for (int i = 1; i <= ViewBag.ToplamSayfa; i++)
+    {
+        <a href="?sayfa=@i"
+           class="btn btn-sm @(i == ViewBag.Sayfa ? "btn-primary" : "btn-light")">@i</a>
+    }
+</div>

@@ -1,0 +1,533 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\kullanicilarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\kullanicilarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\islemkayitlaricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\islemkayitlaricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\anonimverilercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\anonimverilercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\kullanicilar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\kullanicilar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\kullanicilar\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\kullanicilar\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\kullanicilar\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\kullanicilar\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\anonimveriler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\anonimveriler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\pipelinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\pipelinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\hatakayitlaricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\hatakayitlaricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\erisimkayitlaricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\erisimkayitlaricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\models\\sistemkullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\models\\sistemkullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\models\\erisimkaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\models\\erisimkaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\models\\islemkaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\models\\islemkaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\islemkayitlari\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\islemkayitlari\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\hatakayitlari\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\hatakayitlari\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\erisimkayitlari\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\erisimkayitlari\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\data\\uygulamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\data\\uygulamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\models\\hatakaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\models\\hatakaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\models\\anonimkullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\models\\anonimkullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\models\\girisviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\models\\girisviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|c:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8B58D29E-7F3D-4CA9-A03C-7936D5005DE7}|veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi.csproj|solutionrelative:veritabaniyonetimiprojesi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Duzenle.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Duzenle.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Duzenle.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Duzenle.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Duzenle.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T19:00:58.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\AnonimVeriler\\Index.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\AnonimVeriler\\Index.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\AnonimVeriler\\Index.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\AnonimVeriler\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T17:31:11.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T17:12:23.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PipelineController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\PipelineController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\PipelineController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\PipelineController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\PipelineController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T18:57:46.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErisimKayitlariController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\ErisimKayitlariController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\ErisimKayitlariController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\ErisimKayitlariController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\ErisimKayitlariController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:26:09.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Program.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Program.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Program.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:46:40.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IslemKayitlariController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\IslemKayitlariController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\IslemKayitlariController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\IslemKayitlariController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\IslemKayitlariController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:25:40.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KullanicilarController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\KullanicilarController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\KullanicilarController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\KullanicilarController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\KullanicilarController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAA5wAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:24:46.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Ekle.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Ekle.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Ekle.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-21T18:59:53.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Index.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Index.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Index.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\Kullanicilar\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T17:30:34.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T16:57:31.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnonimVerilerController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\AnonimVerilerController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\AnonimVerilerController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\AnonimVerilerController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\AnonimVerilerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:25:15.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HataKayitlariController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\HataKayitlariController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\HataKayitlariController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\HataKayitlariController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\HataKayitlariController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:26:45.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:08:58.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:57:13.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T18:50:12.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Models\\Rol.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\Rol.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:07:30.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SistemKullanici.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\SistemKullanici.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Models\\SistemKullanici.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\SistemKullanici.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Models\\SistemKullanici.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:06:25.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErisimKaydi.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\ErisimKaydi.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Models\\ErisimKaydi.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\ErisimKaydi.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Models\\ErisimKaydi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:51:50.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IslemKaydi.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\IslemKaydi.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Models\\IslemKaydi.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\IslemKaydi.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Models\\IslemKaydi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:51:20.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\IslemKayitlari\\Index.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\IslemKayitlari\\Index.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\IslemKayitlari\\Index.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\IslemKayitlari\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T17:32:10.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\appsettings.json",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\appsettings.json",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\appsettings.json",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-19T16:44:21.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\ErisimKayitlari\\Index.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\ErisimKayitlari\\Index.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\ErisimKayitlari\\Index.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\ErisimKayitlari\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T17:32:48.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\HataKayitlari\\Index.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\HataKayitlari\\Index.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\HataKayitlari\\Index.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\HataKayitlari\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T17:33:24.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HataKaydi.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\HataKaydi.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Models\\HataKaydi.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\HataKaydi.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Models\\HataKaydi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:21:02.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T17:13:43.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UygulamaDbContext.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Data\\UygulamaDbContext.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Data\\UygulamaDbContext.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Data\\UygulamaDbContext.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Data\\UygulamaDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:56:31.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AnonimKullanici.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\AnonimKullanici.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Models\\AnonimKullanici.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\AnonimKullanici.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Models\\AnonimKullanici.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:50:37.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GirisViewModel.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\GirisViewModel.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Models\\GirisViewModel.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\GirisViewModel.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Models\\GirisViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T17:02:22.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Kullanici.cs",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\Kullanici.cs",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Models\\Kullanici.cs",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Models\\Kullanici.cs",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Models\\Kullanici.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:50:07.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T17:11:33.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "veritabaniyonetimiprojesi\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\masa\u00FCst\u00FC\\veritabaniyonetimiprojesi\\veritabaniyonetimiprojesi\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "veritabaniyonetimiprojesi\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAYwAABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-19T17:13:19.337Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

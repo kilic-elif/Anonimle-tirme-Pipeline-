@@ -1,0 +1,256 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+/* LOGIN */
+.login-body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #1d4ed8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 430px;
+    padding: 20px;
+}
+
+.login-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 36px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+    .login-header h2 {
+        margin-bottom: 8px;
+        font-weight: 700;
+        color: #0f172a;
+    }
+
+    .login-header p {
+        margin: 0;
+        color: #64748b;
+    }
+
+.btn-login {
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+    .btn-login:hover {
+        background: #1e40af;
+        color: white;
+    }
+
+.login-demo {
+    color: #64748b;
+    text-align: center;
+}
+
+/* LAYOUT */
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    background: #0f172a;
+    color: white;
+    padding: 24px 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-brand h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sidebar-brand span {
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+.sidebar-menu {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .sidebar-menu a {
+        color: #e2e8f0;
+        text-decoration: none;
+        padding: 12px 14px;
+        border-radius: 12px;
+        transition: 0.2s ease;
+        font-weight: 500;
+    }
+
+        .sidebar-menu a:hover {
+            background: #1e293b;
+            color: white;
+        }
+
+.main-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar {
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 18px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-title {
+    margin: 0;
+    font-weight: 700;
+}
+
+.user-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+    .user-info span {
+        color: #64748b;
+        font-size: 13px;
+    }
+
+.content-area {
+    padding: 28px;
+}
+
+/* DASHBOARD */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    border: 1px solid #eef2f7;
+}
+
+.stat-title {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.panel-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.panel-card {
+    background: white;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    border: 1px solid #eef2f7;
+}
+
+    .panel-card h5 {
+        margin-bottom: 16px;
+        font-weight: 700;
+    }
+
+.custom-table thead th {
+    background: #f8fafc;
+    color: #334155;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.custom-table tbody tr:hover {
+    background: #f8fbff;
+}
+
+.durum-badge {
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.durum-ok {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.durum-warn {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+@media (max-width: 1100px) {
+    .dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .panel-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .topbar {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+}

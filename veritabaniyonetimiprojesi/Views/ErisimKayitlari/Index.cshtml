@@ -1,0 +1,36 @@
+﻿@model List<veritabaniyonetimiprojesi.Models.ErisimKaydi>
+@{
+    ViewData["Title"] = "Erişim Kayıtları";
+}
+
+<div class="panel-card">
+    <h4 class="mb-3">Erişim Kayıtları</h4>
+
+    <div class="table-responsive">
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Sistem Kullanıcı ID</th>
+                    <th>İşlem Tipi</th>
+                    <th>Hedef Tablo</th>
+                    <th>Açıklama</th>
+                    <th>Tarih</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ErisimID</td>
+                        <td>@item.SistemKullaniciID</td>
+                        <td>@item.IslemTipi</td>
+                        <td>@item.HedefTablo</td>
+                        <td>@item.Aciklama</td>
+                        <td>@item.IslemTarihi.ToString("dd.MM.yyyy HH:mm")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

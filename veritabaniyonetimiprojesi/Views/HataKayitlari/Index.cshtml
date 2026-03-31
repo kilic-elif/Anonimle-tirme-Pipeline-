@@ -1,0 +1,43 @@
+﻿@model List<veritabaniyonetimiprojesi.Models.HataKaydi>
+@{
+    ViewData["Title"] = "Hata Kayıtları";
+}
+
+<div class="panel-card">
+    <h4 class="mb-3">Hata Kayıtları</h4>
+
+    <div class="table-responsive">
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>İşlem ID</th>
+                    <th>Hata Mesajı</th>
+                    <th>Hata Satırı</th>
+                    <th>Tarih</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.HataID</td>
+                            <td>@item.IslemID</td>
+                            <td>@item.HataMesaji</td>
+                            <td>@item.HataSatiri</td>
+                            <td>@item.HataTarihi.ToString("dd.MM.yyyy HH:mm")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5">Hata kaydı bulunmuyor.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

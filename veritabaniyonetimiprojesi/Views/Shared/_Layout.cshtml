@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - Anonimlestirme Paneli</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="app-layout">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h3>AKS Panel</h3>
+                <span>Yönetim Sistemi</span>
+            </div>
+
+            <nav class="sidebar-menu">
+                <a asp-controller="Home" asp-action="Index">Dashboard</a>
+
+                @if (Context.Session.GetString("Rol") == "Admin")
+                {
+                    <a asp-controller="Kullanicilar" asp-action="Index">Kullanıcılar</a>
+                }
+
+                @if (Context.Session.GetString("Rol") == "Admin" || Context.Session.GetString("Rol") == "Analist")
+                {
+                    <a asp-controller="AnonimVeriler" asp-action="Index">Anonim Veriler</a>
+                    <a asp-controller="Pipeline" asp-action="Calistir">Pipeline Çalıştır</a>
+                }
+
+                @if (Context.Session.GetString("Rol") == "Admin" || Context.Session.GetString("Rol") == "Denetci")
+                {
+                    <a asp-controller="IslemKayitlari" asp-action="Index">İşlem Kayıtları</a>
+                    <a asp-controller="ErisimKayitlari" asp-action="Index">Erişim Kayıtları</a>
+                    <a asp-controller="HataKayitlari" asp-action="Index">Hata Kayıtları</a>
+                }
+            </nav>
+        </aside>
+
+        <div class="main-area">
+            <header class="topbar">
+                <div>
+                    <h4 class="page-title">@ViewData["Title"]</h4>
+                </div>
+
+                <div class="user-box">
+                    <div class="user-info">
+                        <strong>@Context.Session.GetString("AdSoyad")</strong>
+                        <span>@Context.Session.GetString("Rol")</span>
+                    </div>
+                    <a asp-controller="Auth" asp-action="Cikis" class="btn btn-sm btn-danger">Çıkış</a>
+                </div>
+            </header>
+
+            <main class="content-area">
+                @if (TempData["Hata"] != null)
+                {
+                    <div class="alert alert-danger">@TempData["Hata"]</div>
+                }
+
+                @if (TempData["Basari"] != null)
+                {
+                    <div class="alert alert-success">@TempData["Basari"]</div>
+                }
+
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
